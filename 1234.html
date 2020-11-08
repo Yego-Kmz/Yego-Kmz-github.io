@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en,ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="1234.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>MilTech</title>
+</head>
+<body class="body">
+<header class="header">
+  <div class="maintxt"> MillTech  </div>
+  <div class="tex1"> Official WeBsite about military-technical side of russian federation </div>
+  <div class="container-fluid">
+  <div class="lan">
+    <button class="b2"> EN </button>
+    <button class="b3"> RU </button>
+  </div>
+  </div>
+  <div class="gb"> </div>
+</header>
+<div class="fot">
+  <div class="container-fluid">
+    <div class="row">
+      <button class="col-sm-3"> Home  </button>
+      <button class="col-sm-3"> News  </button>
+      <button class="col-sm-3"> Service </button>
+       <button class="col-sm-3"> Media  </button>
+    </div>
+  </div>
+  </div>
+
+<div class="upr">
+  <div class="container-fluid">
+<div class="tex2"> Considers issues related to the implementation of the military-technical policy of the Russian Federation,
+  as well as the effectiveness of the use of federal budget funds to ensure the country's defense, law enforcement and state security, including those allocated
+  for the current maintenance and equipment of the Armed Forces of the Russian Federation </div>
+</div>
+</div>
+<p class="tex3"> The following military technical structures are actively developing in Russia, which are worth getting to know
+</p>
+<div class="box">
+  <button class="box1"> <p class="pt">COMBAT ARMORED VEHICLES</p> <div class="img1"> </div> </button>
+  <button class="box1"> <p class="pt">COMBAT AIRCRAFT</p> <div class="img2"> </div> </button>
+  <button class="box1"> <p class="pt"> NEAVY SHIP</p> <div class="img3"> </div> </button>
+  <button class="box1"> <p class="pt">AIRBONE COMBAT VEHICLES</p> <div class="img4"> </div> </button>
+  <button class="box1"> <p class="pt">MISSILE SYSTEM</p> <div class="img5"> </div> </button>
+</div>
+<p class="p1"> LAST NEWS</p>
+<div class="box2">
+
+      <div class="box3">
+    <div class="mg1"> </div>
+    <p class="pta1"> 10.09.2020</p>
+    <p>
+      The Baltic Fleet army corps missiles delivered high-precision strikes at the imaginary enemy</p>
+    <button class="pt3"> READ MORE... </button>
+      </div>
+    <div class="box3">
+    <div class="mg2"> </div>
+    <p class="pta1"> 11.09.20</p>
+    <p class="pta2"> The training ship of the Russian Navy "Smolny" passed the strait zone of the Bosphorus - Dardanelles and entered the Mediterranean Sea
+      </p>
+    <button class="pt3"> READ MORE... </button>
+    </div>
+
+</div> <script src="https://www.google.com/jsapi"></script>
+<title>Круговая диаграмма</title>
+<script src="https://www.google.com/jsapi"></script>
+<script>
+  google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Газ', 'Объём'],
+      ['Водород', 10.00],
+      ['Азот',  40.00],
+      ['Кислород', 20.00],
+      ['Аргон',    10.00],
+      ['Углекислый газ', 20.00]
+    ]);
+    var options = {
+      title: 'Export volume in 2020',
+      is3D: true,
+      pieResidueSliceLabel: 'Other'
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('dia'));
+    chart.draw(data, options);
+  }
+</script>
+  <div id="dia"> </div>
+ <footer class="footer">  </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,511 @@
+@font-face {
+  font-family: "Sedan SC", serif;
+  src: url("doc/sedansc/SedanSC-Regular.ttf");
+format(truetype);
+}
+html {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 3072px;
+}
+.body {
+  background: linear-gradient(180deg, #1A3A06 11.46%, #10130D 81.77%);
+  position: center;
+ /* width: 1440px;*/
+  height: 3072px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.header {
+  background-image: url(v18_1.png);
+  position: absolute;
+  height: 178px;
+  width: 100%;
+  left: 0px;
+  border-radius: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  margin: 0px;
+  margin-inside: 0px;
+  }
+.maintxt{
+  position: relative;
+  left: -16%;
+  top: 0%;
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.25vw;
+  line-height: 138px;
+  text-align: center;
+  text-decoration-line: underline;
+  /*text-transform: capitalize;*/
+  margin: 0px;
+
+  color: #FFFFFF;
+
+  text-shadow: brown 1px 1px 0, darkred -1px -1px 0,
+  brown  -1px 1px 0, darkred 1px -1px 0;
+}
+.tex1{
+  position: absolute;
+  width: 24.3%;
+  height: 30px;
+  bottom: 10%;
+  left: 20%;
+margin: 0px;
+
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 24px;
+
+  color: red;
+  text-shadow: black 1px 1px 0, black -1px -1px 0,
+  black  -1px 1px 0, black 1px -1px 0;
+}
+.lan{
+  position: relative;
+  width: 13%;
+  height: 6%;
+  left: 90%;
+  bottom: 50px;
+  margin-bottom: 10px;
+}
+.b2 {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  /*position: relative;
+  height: 1.23%;
+  width: ;*/
+  background: linear-gradient(180deg, #BE0B0B 0%, #ED0C0C 100%);
+
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #DBED0C;
+  float: left;
+  margin: 2px;
+}
+.b2:hover{
+  color: black;
+}
+.b3:hover{
+  color: black;
+}
+.b3 {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #BE0B0B 0%, #ED0C0C 100%);
+
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #DBED0C;
+  float: left;
+  margin: 2px;
+}
+
+/*.gb {position: absolute;
+left: 86.53%;
+right: 6.88%;
+top: 16.04%;
+bottom: 50%;
+
+background: url(img/gb.png);
+border: 1px solid #DBED0C;
+box-sizing: border-box;
+border-radius: 10px;}*/
+.fot {
+  box-sizing: border-box;
+  width: calc(100% - 10px);
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 178px;
+  background-color: #1A3A06;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.col-sm-3 {
+   position: relative;
+  max-width: 300px;
+  width: 318px;
+   min-width: 225px;
+  min-height: 90px;
+   height: 4.1%;
+   background: rgba(196, 196, 196, 0.12);
+   border-radius: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+ /* border: 1px rgba(196, 196, 196, 0.12);*/
+   font-family: "Sedan SC", serif;
+   font-size: 1.5vw;
+  float: left;
+   text-align: center;
+   align-items: center;
+   color: #ffffff;
+
+ }
+/*.button1 {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  background: rgba(196, 196, 196, 0.12);
+  border-radius: 10px;
+  margin: 0%;
+
+  font-family: "Sedan SC", serif;
+  font-size: 24px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+}*/
+.col-sm-3:hover{
+  color: red;
+  border: 1px red ;
+}
+.upr{
+  display: block;
+  float: none;
+  background-image: url("v35_0.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: center%;
+  background-position-x: center;
+  background-position: center;
+  position: relative;
+  top: 168px;
+  height: 35rem;
+
+  width: 100%;
+  min-height: 656px;
+  max-height: 799px;
+
+}
+.tex2{
+  max-width: 1300px;
+  width: border-box;
+  min-height: 173px;
+  height: border-box;
+  position: relative;
+  margin: 10px;
+  left: 2.8%;
+  right: 7.3%;
+  top: 30px;
+  padding: 10px;
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  line-height: 33px;
+  color: white;
+  background: rgba(15, 14, 14, 0.4);
+  box-shadow: inset 0px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+display: flex;
+  justify-content: flex-start;
+
+}
+
+
+/*.d14{
+position: absolute;
+left: 22.78%;
+right: 69.93%;
+top: 10.82%;
+bottom: 50%;
+
+background: linear-gradient(180deg, #FFFCFC 25.04%, #3272D1 51.61%, #BE0B0B 78.17%);
+border: 2px solid #DBED0C;
+box-sizing: border-box;
+transform: matrix(-1, 0, 0, 1, 0, 0)
+.d14 {
+  margin: 50px 0;
+  height: 0;
+  width: 0;
+  position: relative;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid #E7337A;
+  border-left: 50px solid transparent;
+  transform: rotate(35deg);
+}
+.d14:before,
+.d14:after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+.d14:before {
+  top: -26px;
+  left: -32px;
+  border-bottom: 40px solid #E7337A;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(-35deg);
+}
+.d14:after {
+  top: 2px;
+  left: -53px;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid #E7337A;
+  border-left: 50px solid transparent;
+  transform: rotate(-70deg);
+}*/
+.tex3 {
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25vw;
+  line-height: 100%;
+  color: #FFFFFF;
+  position: relative;
+  margin: 15px;
+  top: 200px;
+}
+.box { position: relative;
+  top: 7%;
+ width: 1920px;
+  float: left;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: scroll;
+
+}
+.box1 {
+  position: relative;
+  width: 430px;
+  height: 360px;
+  margin: 18px;
+  float: left;
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(251, 251, 251, 0.3483) 17.23%, rgba(157, 154, 154, 0.43) 31.29%);}
+.box1:hover { color: black}
+.pt{ position: relative;
+  top: 20px;
+font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: -moz-center;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+.img1{ background-image: url(img/tank.jpg);
+  position: relative;
+  top: 5%;
+  height: 260px;
+  margin: 5px;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.img2{ background-image: url(img/samolet.jpg);
+  position: relative;
+  top: 5%;
+  height: 260px;
+  margin: 5px;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;}
+.img3{ background-image: url(img/5ba5cd66183561cb4f8b45ed.jpg);
+  position: relative;
+  top: 5%;
+  height: 260px;
+  margin: 5px;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;}
+.img4{ background-image: url(img/btr.jpg);
+  position: relative;
+  top: 5%;
+  height: 260px;
+  margin: 5px;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;}
+.img5{ background-image: url(img/pushka.png);
+  position: relative;
+  top: 5%;
+  height: 260px;
+  margin: 5px;
+  background-size: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;}
+
+
+::-webkit-scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:6px;
+  height:0px
+}
+
+::-webkit-scrollbar-track {
+  background-color: ;
+  box-shadow:0px 0px 3px #000 inset;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color:red;
+  box-shadow:0px 1px 1px #fff inset;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+::-webkit-resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:7px;
+  height:0px
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+.p1 {
+  position: relative;
+  top: 10%;
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: -moz-center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.box2 {
+  position: relative;
+  top: 10%;
+  left: 0%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+
+  overflow-x: auto;
+  width: auto;
+}
+.box3 { display: grid;
+  justify-self: center;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 550px;
+  width: 595px;
+  padding: 10px;
+
+  background: rgba(196, 196, 196, 0.47);
+  box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  margin: 10px;
+
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #000000;
+}
+.pta1 { font-size: 14px}
+.pta2 {
+  position: relative;
+  top: 0px;
+  line-height: 121%;
+}
+.pt3 {
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  top: 10px;
+  color: #E8AD78;
+}
+.mg1 { max-width: 502px;
+  height: 237px;
+  background: url();
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 35px;
+  background-size: cover;
+}
+.mg2 { width: 502px;
+  height: 237px;
+  background: url();
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 35px;
+  background-size: cover;
+}
+#dia {
+  position: relative;
+  top: 10%;
+  height: 500px;
+  width: auto;
+  color: #1A3A06;
+}
+.footer{
+  background-image: url(v18_1.png);
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+  width: auto;
+  left: 0px;
+  right: 0px;
+  top: 2867px;
+  height: 204px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background-size: cover;
+  margin: 0px;
+  margin-inside: 0px;
+  border-top: 3px solid firebrick;
+}
